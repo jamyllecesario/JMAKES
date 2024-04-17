@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Document</title>
+</head>
+<body id="Formulario">
+    <h1 id="Secao1"></h1>
+    <header>
+    <h2>JMAKES</h2>
+    <h6>OS MELHORES COSMÉTICOS E MAKES PARA VOCÊ!</h6>
+    </header>
+    <article>
+        <form action="autenticacao.php" method="post">   
+        </form>
+         <form>
+            <h2><i>Selecione seu produto</i></h2>
+            Tipo de Pele:
+                <select name="tipo_pele">
+                    <option value="1">Normal</option>
+                    <option value="2">Seca</option>
+                    <option value="3">Mista</option>
+                    <option value="4">Oleosa</option>
+                </select>
+            </p>
+            <p>Cor dos Olhos: <input type="text" name="cor_olhos" placeholder="Ex.: Castanho"/></p>
+            <p>Cor dos Cabelos: <input type="text" name="cor_cabelos" placeholder="Ex.: Loiro"/></p>
+            <p>Tom de Base Favorito: <input type="text" name="base_fav" placeholder="Ex.: Bege Claro"/></p>
+            <p>Produtos de Maquiagem Favoritos: <input type="text" name="produtos_fav" placeholder="Ex.: Batom Vermelho"/></p>
+            <p>Preferência de Maquiagem: <input type="text" name="preferencia_maquiagem" placeholder="Ex.: Maquiagem Natural"/></p>
+            <p>Último Produto de Maquiagem Adquirido: <input type="text" name="ultimo_produto" placeholder="Ex.: Paleta de Sombras"/></p>
+            <p>Comentários sobre Maquiagem: <input type="text" name="comentarios_maquiagem" placeholder="Ex.: Adorei a textura do blush"/></p>
+            <p>
+            </form>  
+                <input type="checkbox" name="termos"/>
+                Aceito os termos e condições do site!
+            </p>
+            <br />
+            <input type="reset" name="Resetar"/>
+            <br />
+            <br />
+            <input type="submit" name="Enviar"/>
+            <br />
+            <br />
+
+        </form>
+        <fieldset align="center">
+            <legend><i><b>Produtos de Maquiagem</b></i></legend>
+            <br />
+            <label>Base:</label> 
+            <input type="text" name="base" placeholder="Marca e tom"/>
+            <br />
+            <br />
+            <label>Paleta de Sombras:</label> 
+            <input type="text" name="paleta_sombras" placeholder="Marca e cores"/>
+            <br />
+            <br />
+            <label>Paleta Iluminadora:</label> 
+            <input type="text" name="paleta_iluminadora" placeholder="Marca e tons"/>
+            <br />
+            <br />
+            <label>Skin Care:</label> 
+            <input type="text" name="skin_care" placeholder="Produtos de cuidados com a pele"/>
+        </fieldset>
+    
+    </article>
+</section>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>JMAKES</h1>
+                <p>Maquiagem.</p>
+
+                <div id="footer_social_media">
+                    <a href="" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp"></a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer_copyright">
+          JMAKES  &#169
+            2023 all rights reserved
+        </div>
+</footer>
+</body>
+</html>
